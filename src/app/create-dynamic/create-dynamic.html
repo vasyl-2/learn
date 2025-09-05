@@ -1,0 +1,14 @@
+<ng-container #container></ng-container>
+
+
+<button (click)="setCollapsed(!compactMode())">
+  Set Collapse
+</button>
+<section>
+  <button (click)="createComponent()">Create Component</button>
+
+  <div>
+    in parent: {{ compactMode() }}
+  </div>
+
+</section>
