@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {CreateDynamic} from '../create-dynamic/create-dynamic';
 import {ZonelessCd} from '../zoneless-cd/zoneless-cd';
+import {Text} from '../design-patterns/command-pattern/text-app/text/text';
 
 @Component({
   selector: 'app-playground',
   imports: [
     CreateDynamic,
     ZonelessCd,
+    Text
   ],
   templateUrl: './playground.html',
   styleUrl: './playground.scss'

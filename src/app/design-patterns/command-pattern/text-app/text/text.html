@@ -1,0 +1,17 @@
+<h2>Angular Command Pattern Example</h2>
+
+<textarea [(ngModel)]="inputText" placeholder="Type something..."></textarea>
+<br />
+
+<button (click)="addText()">Add Text</button>
+
+<button (click)="clearText()">Clear</button>
+
+<button (click)="undo()">Undo</button>
+
+<button (click)="redo()">Redo</button>
+
+
+
+<h3>Editor Content:</h3>
+<p>{{ editor.getText() }}</p>
