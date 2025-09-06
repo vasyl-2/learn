@@ -15,7 +15,6 @@ import { MatTooltip } from '@angular/material/tooltip';
   selector: 'app-create-dynamic',
   templateUrl: './create-dynamic.html',
   styleUrl: './create-dynamic.scss',
-  imports: [MatTooltip]
 })
 export class CreateDynamic {
 

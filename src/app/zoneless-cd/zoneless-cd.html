@@ -1,0 +1,10 @@
+<div class="zone-less-cd">
+  <button (click)="change()">Change</button>
+
+  <h5>Count:</h5>
+  <p>{{ count() }}</p>
+
+  <ng-template #counter let-data=count>count in template: {{ data }}</ng-template>
+  <ng-container *ngTemplateOutlet="counter; context: { count: count() }"></ng-container>
+
+</div>
